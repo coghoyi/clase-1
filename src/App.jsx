@@ -7,14 +7,14 @@ const object = { a: 1, b: 3 };
 
 const App = () => {
 	return (
-		<>
-			<h1>{name}</h1>
-			<h1>{number}</h1>
-			<h1>{boolean}</h1>
-			<h1>{isNull}</h1>
-			<h1>{array}</h1>
-			<h1>{object}</h1>
-		</>
+		<div>
+			<p>Name: {name}</p>
+			<p>Number: {number}</p>
+			<p>Boolean: {boolean}</p>
+			<p>Is Null: {isNull}</p>
+			<p>Array: {array}</p>
+			<p>Object: {object}</p>
+		</div>
 	);
 };
 
