@@ -13,7 +13,7 @@ const App = () => {
 			<p>Boolean: {boolean}</p>
 			<p>Is Null: {isNull}</p>
 			<p>Array: {array}</p>
-			<p>Object: {object}</p>
+			<p>Object: {object.a}</p>
 		</div>
 	);
 };
